@@ -26,7 +26,7 @@ final class ClockTests: XCTestCase {
             expectation.fulfill()
         })
 
-        self.waitForExpectations(timeout: 20)
+        self.waitForExpectations(timeout: 60)
     }
 
     func testBoth() {
@@ -36,6 +36,6 @@ final class ClockTests: XCTestCase {
             first: { _, _ in firstExpectation.fulfill() },
             completion: { _, _ in lastExpectation.fulfill() })
 
-        self.waitForExpectations(timeout: 20)
+        self.waitForExpectations(timeout: 60)
     }
 }

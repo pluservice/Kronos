@@ -20,13 +20,26 @@
 		26447D8A1D6E54FF00159BEE /* DNSResolverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26447D861D6E54FF00159BEE /* DNSResolverTests.swift */; };
 		26447D8B1D6E54FF00159BEE /* NTPClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26447D871D6E54FF00159BEE /* NTPClientTests.swift */; };
 		26447D8C1D6E54FF00159BEE /* NTPPacketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26447D881D6E54FF00159BEE /* NTPPacketTests.swift */; };
+		65A333CC21A453E6005211D7 /* BootDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A333CA21A453E1005211D7 /* BootDetectorTests.swift */; };
 		65BA7F9321A4106D008A302B /* BootDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BA7F9221A4106D008A302B /* BootDetector.swift */; };
+		65BA7F9F21A43545008A302B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BA7F9E21A43545008A302B /* AppDelegate.swift */; };
+		65BA7FA121A43545008A302B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BA7FA021A43545008A302B /* ViewController.swift */; };
+		65BA7FA421A43545008A302B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65BA7FA221A43545008A302B /* Main.storyboard */; };
+		65BA7FA621A43547008A302B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65BA7FA521A43547008A302B /* Assets.xcassets */; };
+		65BA7FA921A43547008A302B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65BA7FA721A43547008A302B /* LaunchScreen.storyboard */; };
 		930B39DD2051E6D300360BA2 /* TimeStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B39DC2051E6D300360BA2 /* TimeStorage.swift */; };
 		930B39E02051F26500360BA2 /* TimeStorageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B39DE2051F25300360BA2 /* TimeStorageTests.swift */; };
 		C201748E1BD5509D00E4FE18 /* Kronos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C20174831BD5509D00E4FE18 /* Kronos.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		65BA7FAE21A4354B008A302B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C201747A1BD5509D00E4FE18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65BA7F9B21A43545008A302B;
+			remoteInfo = TestHost;
+		};
 		C201748F1BD5509D00E4FE18 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C201747A1BD5509D00E4FE18 /* Project object */;
@@ -50,7 +63,15 @@
 		26447D861D6E54FF00159BEE /* DNSResolverTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNSResolverTests.swift; sourceTree = "<group>"; };
 		26447D871D6E54FF00159BEE /* NTPClientTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTPClientTests.swift; sourceTree = "<group>"; };
 		26447D881D6E54FF00159BEE /* NTPPacketTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTPPacketTests.swift; sourceTree = "<group>"; };
+		65A333CA21A453E1005211D7 /* BootDetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootDetectorTests.swift; sourceTree = "<group>"; };
 		65BA7F9221A4106D008A302B /* BootDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootDetector.swift; sourceTree = "<group>"; };
+		65BA7F9C21A43545008A302B /* TestHost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestHost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65BA7F9E21A43545008A302B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65BA7FA021A43545008A302B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65BA7FA321A43545008A302B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65BA7FA521A43547008A302B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65BA7FA821A43547008A302B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65BA7FAA21A43547008A302B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		930B39DC2051E6D300360BA2 /* TimeStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeStorage.swift; sourceTree = "<group>"; };
 		930B39DE2051F25300360BA2 /* TimeStorageTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeStorageTests.swift; sourceTree = "<group>"; };
 		C20174831BD5509D00E4FE18 /* Kronos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kronos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +83,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		65BA7F9921A43545008A302B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C201748A1BD5509D00E4FE18 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -73,12 +101,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65BA7F9D21A43545008A302B /* TestHost */ = {
+			isa = PBXGroup;
+			children = (
+				65BA7F9E21A43545008A302B /* AppDelegate.swift */,
+				65BA7FA021A43545008A302B /* ViewController.swift */,
+				65BA7FA221A43545008A302B /* Main.storyboard */,
+				65BA7FA521A43547008A302B /* Assets.xcassets */,
+				65BA7FA721A43547008A302B /* LaunchScreen.storyboard */,
+				65BA7FAA21A43547008A302B /* Info.plist */,
+			);
+			path = TestHost;
+			sourceTree = "<group>";
+		};
 		C20174791BD5509D00E4FE18 = {
 			isa = PBXGroup;
 			children = (
 				C2C036F21C2B1A0B003FB853 /* Sources */,
 				C2C037011C2B1A14003FB853 /* Tests */,
 				C2C036D01C2B180D003FB853 /* Resources */,
+				65BA7F9D21A43545008A302B /* TestHost */,
 				C20174841BD5509D00E4FE18 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +130,7 @@
 			children = (
 				C20174831BD5509D00E4FE18 /* Kronos.framework */,
 				C201748D1BD5509D00E4FE18 /* KronosTests.xctest */,
+				65BA7F9C21A43545008A302B /* TestHost.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,6 +188,7 @@
 				26447D871D6E54FF00159BEE /* NTPClientTests.swift */,
 				26447D881D6E54FF00159BEE /* NTPPacketTests.swift */,
 				930B39DE2051F25300360BA2 /* TimeStorageTests.swift */,
+				65A333CA21A453E1005211D7 /* BootDetectorTests.swift */,
 			);
 			path = KronosTests;
 			sourceTree = "<group>";
@@ -152,6 +196,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		65BA7F9B21A43545008A302B /* TestHost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65BA7FAB21A43547008A302B /* Build configuration list for PBXNativeTarget "TestHost" */;
+			buildPhases = (
+				65BA7F9821A43545008A302B /* Sources */,
+				65BA7F9921A43545008A302B /* Frameworks */,
+				65BA7F9A21A43545008A302B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestHost;
+			productName = TestHost;
+			productReference = 65BA7F9C21A43545008A302B /* TestHost.app */;
+			productType = "com.apple.product-type.application";
+		};
 		C20174821BD5509D00E4FE18 /* Kronos */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C20174971BD5509D00E4FE18 /* Build configuration list for PBXNativeTarget "Kronos" */;
@@ -178,6 +239,7 @@
 			);
 			dependencies = (
 				C20174901BD5509D00E4FE18 /* PBXTargetDependency */,
+				65BA7FAF21A4354B008A302B /* PBXTargetDependency */,
 			);
 			name = KronosTests;
 			productName = KronosTests;
@@ -190,10 +252,14 @@
 		C201747A1BD5509D00E4FE18 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
+				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = Lyft;
 				TargetAttributes = {
+					65BA7F9B21A43545008A302B = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
+					};
 					C20174821BD5509D00E4FE18 = {
 						CreatedOnToolsVersion = 7.0;
 						LastSwiftMigration = 1000;
@@ -201,6 +267,7 @@
 					C201748C1BD5509D00E4FE18 = {
 						CreatedOnToolsVersion = 7.0;
 						LastSwiftMigration = 1000;
+						TestTargetID = 65BA7F9B21A43545008A302B;
 					};
 				};
 			};
@@ -210,6 +277,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = C20174791BD5509D00E4FE18;
 			productRefGroup = C20174841BD5509D00E4FE18 /* Products */;
@@ -218,11 +286,34 @@
 			targets = (
 				C20174821BD5509D00E4FE18 /* Kronos */,
 				C201748C1BD5509D00E4FE18 /* KronosTests */,
+				65BA7F9B21A43545008A302B /* TestHost */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		65BA7F9A21A43545008A302B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65BA7FA921A43547008A302B /* LaunchScreen.storyboard in Resources */,
+				65BA7FA621A43547008A302B /* Assets.xcassets in Resources */,
+				65BA7FA421A43545008A302B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		65BA7F9821A43545008A302B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65BA7FA121A43545008A302B /* ViewController.swift in Sources */,
+				65BA7F9F21A43545008A302B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C201747E1BD5509D00E4FE18 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -250,12 +341,18 @@
 				26447D8B1D6E54FF00159BEE /* NTPClientTests.swift in Sources */,
 				26447D891D6E54FF00159BEE /* ClockTests.swift in Sources */,
 				26447D8A1D6E54FF00159BEE /* DNSResolverTests.swift in Sources */,
+				65A333CC21A453E6005211D7 /* BootDetectorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		65BA7FAF21A4354B008A302B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65BA7F9B21A43545008A302B /* TestHost */;
+			targetProxy = 65BA7FAE21A4354B008A302B /* PBXContainerItemProxy */;
+		};
 		C20174901BD5509D00E4FE18 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C20174821BD5509D00E4FE18 /* Kronos */;
@@ -263,7 +360,79 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		65BA7FA221A43545008A302B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65BA7FA321A43545008A302B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65BA7FA721A43547008A302B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65BA7FA821A43547008A302B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		65BA7FAC21A43547008A302B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = TestHost/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.pluservice.TestHost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65BA7FAD21A43547008A302B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = TestHost/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.pluservice.TestHost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		C20174951BD5509D00E4FE18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -417,6 +586,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C2C036D61C2B180D003FB853 /* UniversalFramework_Test.xcconfig */;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -424,6 +594,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestHost.app/TestHost";
 			};
 			name = Debug;
 		};
@@ -431,18 +602,29 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C2C036D61C2B180D003FB853 /* UniversalFramework_Test.xcconfig */;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Lyft.KronosTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestHost.app/TestHost";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		65BA7FAB21A43547008A302B /* Build configuration list for PBXNativeTarget "TestHost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65BA7FAC21A43547008A302B /* Debug */,
+				65BA7FAD21A43547008A302B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C201747D1BD5509D00E4FE18 /* Build configuration list for PBXProject "Kronos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
