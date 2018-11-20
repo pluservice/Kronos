@@ -2,6 +2,9 @@
 All notable changes to this project will be documented in this file.
 `Kronos` adheres to [Semantic Versioning](http://semver.org/).
 
+## [4.0.0](https://github.com/pluservice/Kronos/releases/tag/4.0.0)
+- Added reboot detection mechanism
+
 ## [3.0.0](https://github.com/lyft/Kronos/releases/tag/3.0.0)
 - Update for Swift 4.2
 
