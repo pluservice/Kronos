@@ -15,6 +15,9 @@ import Foundation
 /// print(Clock.now)
 /// ```
 public struct Clock {
+
+    private static let kBootFlagName = "bFlag"
+
     private static var stableTime: TimeFreeze? {
         didSet {
             self.storage.stableTime = self.stableTime
@@ -57,6 +60,7 @@ public struct Clock {
 
                 if done == 1, let now = self.now {
                     first?(now, offset)
+                    BootDetector.setBootVolatileFlag(kBootFlagName)
                 }
             }
 
@@ -73,10 +77,16 @@ public struct Clock {
     }
 
     private static func loadFromDefaults() {
+        guard BootDetector.getBootVolatileFlag(kBootFlagName) else {
+            self.stableTime = nil
+            return
+        }
+
         guard let previousStableTime = self.storage.stableTime else {
             self.stableTime = nil
             return
         }
+
         self.stableTime = previousStableTime
     }
 }

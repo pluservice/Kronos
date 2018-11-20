@@ -20,6 +20,7 @@
 		26447D8A1D6E54FF00159BEE /* DNSResolverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26447D861D6E54FF00159BEE /* DNSResolverTests.swift */; };
 		26447D8B1D6E54FF00159BEE /* NTPClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26447D871D6E54FF00159BEE /* NTPClientTests.swift */; };
 		26447D8C1D6E54FF00159BEE /* NTPPacketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26447D881D6E54FF00159BEE /* NTPPacketTests.swift */; };
+		65BA7F9321A4106D008A302B /* BootDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BA7F9221A4106D008A302B /* BootDetector.swift */; };
 		930B39DD2051E6D300360BA2 /* TimeStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B39DC2051E6D300360BA2 /* TimeStorage.swift */; };
 		930B39E02051F26500360BA2 /* TimeStorageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B39DE2051F25300360BA2 /* TimeStorageTests.swift */; };
 		C201748E1BD5509D00E4FE18 /* Kronos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C20174831BD5509D00E4FE18 /* Kronos.framework */; };
@@ -49,6 +50,7 @@
 		26447D861D6E54FF00159BEE /* DNSResolverTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNSResolverTests.swift; sourceTree = "<group>"; };
 		26447D871D6E54FF00159BEE /* NTPClientTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTPClientTests.swift; sourceTree = "<group>"; };
 		26447D881D6E54FF00159BEE /* NTPPacketTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTPPacketTests.swift; sourceTree = "<group>"; };
+		65BA7F9221A4106D008A302B /* BootDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootDetector.swift; sourceTree = "<group>"; };
 		930B39DC2051E6D300360BA2 /* TimeStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeStorage.swift; sourceTree = "<group>"; };
 		930B39DE2051F25300360BA2 /* TimeStorageTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeStorageTests.swift; sourceTree = "<group>"; };
 		C20174831BD5509D00E4FE18 /* Kronos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kronos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +124,7 @@
 				26447D7A1D6E54D400159BEE /* NTPProtocol.swift */,
 				26447D7B1D6E54D400159BEE /* TimeFreeze.swift */,
 				930B39DC2051E6D300360BA2 /* TimeStorage.swift */,
+				65BA7F9221A4106D008A302B /* BootDetector.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				26447D7E1D6E54D400159BEE /* InternetAddress.swift in Sources */,
 				26447D811D6E54D400159BEE /* NTPClient.swift in Sources */,
 				26447D7F1D6E54D400159BEE /* Data+Bytes.swift in Sources */,
+				65BA7F9321A4106D008A302B /* BootDetector.swift in Sources */,
 				26447D841D6E54D400159BEE /* TimeFreeze.swift in Sources */,
 				26447D821D6E54D400159BEE /* NTPPacket.swift in Sources */,
 				26447D801D6E54D400159BEE /* NSTimer+ClosureKit.swift in Sources */,
